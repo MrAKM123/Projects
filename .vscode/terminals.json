@@ -1,0 +1,23 @@
+{
+  "autorun": true,
+  "autokill": true,
+  "terminals": [
+    {
+      "name": "Auto Push Sync",
+      "description": "Background GitHub synchronization loop",
+      "commands": [
+        "node auto-push.js"
+      ],
+      "focus": false
+    },
+    {
+      "name": "Backend Server",
+      "description": "Dev server for backend API",
+      "commands": [
+        "cd foodle/backend",
+        "npm run dev"
+      ],
+      "focus": true
+    }
+  ]
+}
